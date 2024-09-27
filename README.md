@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @ulkereva
 - 👀 I’m interested in Cyber Security
 - 🌱 I’m currently learning C, Java, JavaScript
-- 📫 My linkedin profile: 
+- 📫 My linkedin profile: https://www.linkedin.com/in/%C3%BClk%C9%99r-%C9%99liyeva-698115295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
   
 
 <!---
