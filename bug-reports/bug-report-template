@@ -1,1 +1,60 @@
+Bug Report Template:
+# Bug Report — [Project Name]
+
+**Platform:** [Web / Mobile] · **Tester:** Ülkər Əliyeva · **Standard:** ISO/IEC/IEEE 29119-3
+*(Severity is the QA assessment; priority is left to the Product Owner.)*
+
+## 1. Introduction
+
+Short description of what was tested, on which platform, and which areas (modules) the defects cover.
+
+**Executive summary:** Total: N · High: x · Medium: y · Low: z · Status: N Open · Modules affected: m
+
+### Statistics — Module × Severity
+
+| Module | High | Medium | Low | Total |
+|---|:---:|:---:|:---:|:---:|
+| [Module A] | 0 | 0 | 0 | 0 |
+| [Module B] | 0 | 0 | 0 | 0 |
+| **Total** | **0** | **0** | **0** | **0** |
+
+### Summary
+
+| ID | Title | Module | Severity |
+|---|---|---|---|
+| XX-2026-001 | [short title] | [module] | [High/Medium/Low] |
+
+> **Environment (all defects):** Production · [OS] · [Browser + version] / [Device + OS version]
+
+---
+
+## 2. Defects
+
+### XX-2026-001 — [Defect title]
+**Severity:** [High / Medium / Low] · **Module:** [module] · **Status:** Open
+**Preconditions:** [optional — required setup before reproducing]
+
+[One-paragraph description of the defect.]
+
+**Steps:** 1) … 2) … 3) …
+**Expected:** [what should happen]
+**Actual:** [what actually happens]
+**Impact:** [effect on the user / system]
+**Evidence:** [screenshot / screen recording] · **Related:** [other defect IDs]
+
+<!-- Copy the block above for each additional defect. -->
+
+---
+
+## 3. Conclusion
+
+Summarize the severity distribution, name the High-severity blockers to fix first, group any
+related clusters, and note anything that must be confirmed with the team/PO.
+
+---
+
+### Severity guide
+- **High** — core functionality broken or data loss; blocks the user.
+- **Medium** — significant issue with a workaround, or a broken non-core feature.
+- **Low** — cosmetic / text / minor UI; no functional impact.
 
