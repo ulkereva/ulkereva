@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Ülkər Əliyeva 👋</h1>
+<h1 align="center">Hi, I'm Ulker Aliyeva 👋</h1>
 <h3 align="center">QA Engineer | Manual & API Testing</h3>
 
 <p align="center">
@@ -21,6 +21,7 @@ software through structured manual and API testing. I write clear bug reports an
 **Testing:** Manual Testing · API Testing · Exploratory Testing · Test Case Design · Bug Reporting · Regression Testing
 
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
