@@ -46,18 +46,41 @@ Each section has its own README with details and screenshots.
 
 ---
 
-## Bug Reports — Highlights (anonymized)
+# Bug Reports
 
-Real defects found through manual & exploratory testing, documented in **ISO 29119-3** style
-(ID, severity, environment, reproduction steps, expected/actual results, impact, statistics):
+This folder contains real-world defect reports written in **ISO/IEC/IEEE 29119-3** style.
+Each report includes: unique ID, severity, module, environment, preconditions, reproduction
+steps, expected vs. actual results, impact, related defects, a summary table, a
+**module × severity statistics** table, and an **executive summary** for leadership.
 
-| Project (anonymized) | Platform | Defects | Highlights |
-|----------------------|----------|:-------:|------------|
-| Fitness & nutrition app | Mobile (Android) | 9 | Forgot-password / OTP flow blockers, unstable profile state, daily-progress tracking failure |
-| Cloud storage platform | Web | 5 | Folder structure lost on upload, broken email sharing, retention-policy mismatch |
-| Video downloader | Web | 5 | App freeze on live links, missing audio in output, responsive layout blocking download |
+> All product names and sensitive details (URLs, recording links) have been **anonymized**.
+> Severity is the QA assessment; priority is intentionally left to the Product Owner.
 
-Each report includes a **summary table, module × severity statistics, and an executive summary** for leadership.
+## Reports
+
+| Report | Platform | Defects | Highlights |
+|--------|----------|:-------:|------------|
+| Fitness & nutrition app | Mobile (Android) + Web | WIP | Forgot-password / OTP blockers, unstable profile state, daily-progress failure |
+| Cloud storage platform | Web | WIP | Folder structure lost on upload, broken email sharing, retention mismatch |
+| Video downloader | Web | WIP | Freeze on live links, missing audio, responsive layout blocking download |
+| Online exam platform | Web | WIP | Exam creation, question banks, timed-test flow, grading |
+| Psychology / counseling platform | Web | WIP | Appointment booking, session management, user roles |
+| SauceDemo (practice e-commerce) | Web | WIP | Login edge cases, cart & checkout, sorting |
+
+## Severity scale
+
+| Severity | Meaning |
+|----------|---------|
+| **High** | Core functionality broken or data loss; blocks the user. |
+| **Medium** | Significant issue with a workaround, or broken non-core feature. |
+| **Low** | Cosmetic / text / minor UI issue; no functional impact. |
+
+## How these were tested
+
+Defects were found through **manual and exploratory testing** against production builds,
+covering authentication, core feature flows, responsive design, file handling, and sharing.
+Reports are written in English for accessibility; the original engagements were conducted in
+Azerbaijani, and bilingual (Azerbaijani/English) reporting is available on request.
 
 ---
 
